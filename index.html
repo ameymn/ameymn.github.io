@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Amey Managute — AI/ML Engineer specializing in machine learning, deep learning, and intelligent systems. Explore projects, skills, and experience.">
-  <title>Amey Managute | AI/ML Engineer</title>
+  <meta name="description" content="Amey Managute — AI Engineer with an M.S. in Artificial Intelligence, shipping production LLM-powered systems: AI agents, custom MCP tool servers, multimodal RAG pipelines, and scalable Python backends on Azure and AWS.">
+  <title>Amey Managute | AI Engineer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
@@ -361,6 +361,42 @@
     .experience-company {
       color: var(--accent);
       font-weight: 500;
+    }
+
+    .experience-title-group {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .org-logo {
+      width: 48px;
+      height: 48px;
+      min-width: 48px;
+      border-radius: 10px;
+      background: #ffffff;
+      border: 1px solid var(--border-color);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .org-logo img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      padding: 8px;
+      background: #ffffff;
+    }
+
+    .org-initial {
+      font-weight: 700;
+      font-size: 1.15rem;
+      color: #18181b;
     }
 
     .experience-meta {
@@ -740,9 +776,9 @@
     <div class="container">
       <div class="hero-content">
         <p class="hero-greeting">Hi, I'm <span class="highlight">Amey</span> 👋</p>
-        <h1 class="hero-title">I build & deploy ML and LLM systems.</h1>
+        <h1 class="hero-title">I build & deploy AI agents and LLM systems.</h1>
         <p class="hero-subtitle">
-          AI/ML Engineer with an MS in Artificial Intelligence from <strong>University at Buffalo</strong>. I build and deploy across ML and LLMs from <strong>deep learning models</strong> and <strong>NLP systems</strong> to <strong>RAG pipelines</strong> and <strong>LLM-powered applications</strong>.
+          AI Engineer with an M.S. in Artificial Intelligence from <strong>University at Buffalo</strong> and production experience shipping <strong>LLM-powered systems</strong> — from <strong>AI agents</strong> backed by custom MCP tool servers to <strong>multimodal RAG pipelines</strong> and scalable Python backends on <strong>Azure and AWS</strong>.
         </p>
         <div class="hero-buttons">
           <a href="#projects" class="btn btn-primary">View My Work</a>
@@ -758,7 +794,7 @@
           <a href="mailto:ameymanagute.work@gmail.com" aria-label="Email">
             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
           </a>
-          <a href="https://drive.google.com/file/d/12IivQXeszA7lrrzO2dg13satwldEHUZw/view?usp=sharing" target="_blank" aria-label="Resume">
+          <a href="Amey_Managute_Resume.pdf" target="_blank" aria-label="Resume">
             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/></svg>
           </a>
         </div>
@@ -777,13 +813,13 @@
       <div class="about-grid">
         <div class="about-text">
           <p>
-            Hello! I'm <strong>Amey Managute</strong>, an AI/ML Engineer focused on building and deploying <strong>LLM-powered systems</strong>. I recently graduated with a Master's in AI from the University at Buffalo, and I specialize in shipping production-ready ML solutions that actually work.
+            Hello! I'm <strong>Amey Managute</strong>, an AI Engineer with an M.S. in Artificial Intelligence from the University at Buffalo. I ship <strong>production LLM-powered systems</strong> — AI agents backed by custom MCP tool servers, multimodal RAG pipelines, and scalable Python backends.
           </p>
           <p>
-            My work centers on <strong>Multimodal RAG pipelines</strong>, <strong>MCP-based tool integrations</strong>, and end-to-end ML systems. I've built everything from multimodal retrieval systems with Pinecone and FastAPI to Model Context Protocol servers that let LLMs generate mathematical animations.
+            I've built <strong>AI agents in Microsoft Copilot Studio</strong> with custom OAuth-secured MCP servers, <strong>multimodal image-generation engines</strong> on Google Gemini, and <strong>dual-index RAG pipelines</strong> with Pinecone and FastAPI. My work spans <strong>Azure</strong> and <strong>AWS</strong>, from stateless, horizontally scalable backends to containerized ML services.
           </p>
           <p>
-            I'm most comfortable working with <strong>Python</strong>, <strong>PyTorch</strong>, <strong>FastAPI</strong>, <strong>LangChain</strong>, and <strong>AWS</strong>. Whether it's architecting a semantic search pipeline or deploying containerized ML services, I focus on building things that are fast, reliable, and maintainable.
+            I work most with <strong>Python</strong>, <strong>PyTorch</strong>, <strong>FastAPI</strong>, <strong>LangChain</strong>, and the major <strong>LLM APIs</strong>. Whether I'm architecting a retrieval pipeline or deploying a scalable service, I focus on building things that are fast, reliable, and maintainable.
           </p>
         </div>
         <div class="about-image">
@@ -806,14 +842,95 @@
       <div class="experience-list">
         <div class="experience-card">
           <div class="experience-header">
-            <div>
-              <h3 class="experience-role">Machine Learning Intern</h3>
-              <p class="experience-company">The Tann Mann Gaadi</p>
+            <div class="experience-title-group">
+              <div class="org-logo">
+                <span class="org-initial">P</span>
+                <img src="assets/logos/promazo.png" alt="ProMazo logo" loading="lazy" onerror="this.remove()">
+              </div>
+              <div>
+                <h3 class="experience-role">AI Engineer</h3>
+                <p class="experience-company">ProMazo (Client: Dynatrace)</p>
+              </div>
             </div>
             <div class="experience-meta">
               <span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
-                Remote
+                Remote, USA
+              </span>
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"/><line x1="16" x2="16" y1="2" y2="6"/><line x1="8" x2="8" y1="2" y2="6"/><line x1="3" x2="21" y1="10" y2="10"/></svg>
+                Feb 2026 - Present
+              </span>
+            </div>
+          </div>
+          <div class="experience-description">
+            <ul>
+              <li>Built an AI agent in Microsoft Copilot Studio that automates document workflows across company research, Excel model computation (OpenPyXL), and PPTX rendering, powered by a custom OAuth 2.0-secured MCP tool server architected in Python, cutting analyst turnaround from hours to minutes</li>
+              <li>Engineered a stateless, horizontally scalable backend using Azure Redis for session state and Azure Files for artifact staging across replicas, with CI/CD via Azure DevOps and Azure Container Jobs automating TTL-based artifact cleanup to control production storage costs</li>
+            </ul>
+          </div>
+          <div class="experience-tags">
+            <span class="tag">Microsoft Copilot Studio</span>
+            <span class="tag">MCP</span>
+            <span class="tag">Python</span>
+            <span class="tag">Azure Redis</span>
+            <span class="tag">Azure DevOps</span>
+          </div>
+        </div>
+
+        <div class="experience-card">
+          <div class="experience-header">
+            <div class="experience-title-group">
+              <div class="org-logo">
+                <span class="org-initial">F</span>
+                <img src="assets/logos/futurehouse.png" alt="FutureHouse logo" loading="lazy" onerror="this.remove()">
+              </div>
+              <div>
+                <h3 class="experience-role">AI Engineer Intern</h3>
+                <p class="experience-company">FutureHouse.ai</p>
+              </div>
+            </div>
+            <div class="experience-meta">
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                Remote, USA
+              </span>
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"/><line x1="16" x2="16" y1="2" y2="6"/><line x1="8" x2="8" y1="2" y2="6"/><line x1="3" x2="21" y1="10" y2="10"/></svg>
+                Feb 2026 - Jun 2026
+              </span>
+            </div>
+          </div>
+          <div class="experience-description">
+            <ul>
+              <li>Built a multimodal AI image-generation engine on Google Gemini Flash Image supporting up to 5 reference images with face identity preservation, background removal, and platform-aware output, resolving a production Postgres timeout by offloading assets to Supabase Storage</li>
+              <li>Engineered 4 LLM generation pipelines on Google Gemini behind a shared orchestration layer with multi-stage JSON repair</li>
+            </ul>
+          </div>
+          <div class="experience-tags">
+            <span class="tag">Google Gemini</span>
+            <span class="tag">LLM Pipelines</span>
+            <span class="tag">Image Generation</span>
+            <span class="tag">Supabase</span>
+          </div>
+        </div>
+
+        <div class="experience-card">
+          <div class="experience-header">
+            <div class="experience-title-group">
+              <div class="org-logo">
+                <span class="org-initial">T</span>
+                <img src="assets/logos/tann-mann-gaadi.png" alt="The Tann Mann Gaadi logo" loading="lazy" onerror="this.remove()">
+              </div>
+              <div>
+                <h3 class="experience-role">Machine Learning Intern</h3>
+                <p class="experience-company">The Tann Mann Gaadi</p>
+              </div>
+            </div>
+            <div class="experience-meta">
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                Remote, India
               </span>
               <span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"/><line x1="16" x2="16" y1="2" y2="6"/><line x1="8" x2="8" y1="2" y2="6"/><line x1="3" x2="21" y1="10" y2="10"/></svg>
@@ -823,8 +940,7 @@
           </div>
           <div class="experience-description">
             <ul>
-              <li>Implemented natural-language dataset analysis features used by 50+ non-technical users; reduced average query time ~40% and eliminated manual scripting for ad-hoc analysis</li>
-              <li>Automated ETL and feature pipelines with LangChain + PandasAI and Dockerized services, cutting repetitive processing time by ~60% and increasing reliability</li>
+              <li>Built a natural-language query interface for 50+ non-technical users, cutting average query time by 40%, and automated ETL and feature-engineering pipelines with LangChain and PandasAI, reducing data processing time by 60%</li>
             </ul>
           </div>
           <div class="experience-tags">
@@ -834,34 +950,6 @@
             <span class="tag">Docker</span>
           </div>
         </div>
-        <div class="experience-card">
-          <div class="experience-header">
-            <div>
-              <h3 class="experience-role">Student Assistant (STEM Tutor)</h3>
-              <p class="experience-company">University at Buffalo</p>
-            </div>
-            <div class="experience-meta">
-              <span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
-                Buffalo, NY
-              </span>
-              <span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"/><line x1="16" x2="16" y1="2" y2="6"/><line x1="8" x2="8" y1="2" y2="6"/><line x1="3" x2="21" y1="10" y2="10"/></svg>
-                Feb 2025 - Jun 2025
-              </span>
-            </div>
-          </div>
-          <div class="experience-description">
-            <ul>
-              <li>Delivered 1:1 mathematics tutoring to grades 5–12 through Buffalo Public Schools, strengthening problem-solving skills and conceptual understanding</li>
-            </ul>
-          </div>
-          <div class="experience-tags">
-            <span class="tag">Tutoring</span>
-            <span class="tag">Mathematics</span>
-            <span class="tag">STEM Education</span>
-          </div>
-        </div>  
       </div>
     </div>
   </section>
@@ -877,9 +965,15 @@
       <div class="experience-list">
         <div class="experience-card">
           <div class="experience-header">
-            <div>
-              <h3 class="experience-role">Master of Science in Engineering Science (Artificial Intelligence)</h3>
-              <p class="experience-company">University at Buffalo, SUNY</p>
+            <div class="experience-title-group">
+              <div class="org-logo">
+                <span class="org-initial">U</span>
+                <img src="assets/logos/buffalo.png" alt="University at Buffalo logo" loading="lazy" onerror="this.remove()">
+              </div>
+              <div>
+                <h3 class="experience-role">Master of Science – Artificial Intelligence</h3>
+                <p class="experience-company">University at Buffalo, The State University of New York</p>
+              </div>
             </div>
             <div class="experience-meta">
               <span>
@@ -894,6 +988,7 @@
           </div>
           <div class="experience-description">
             <ul>
+              <li>GPA: 3.33/4.0</li>
               <li>Specialization in Artificial Intelligence and Machine Learning</li>
               <li>Coursework: Applied Machine Learning, Deep Learning, Natural Language Processing, Computer Vision</li>
             </ul>
@@ -908,9 +1003,15 @@
 
         <div class="experience-card">
           <div class="experience-header">
-            <div>
-              <h3 class="experience-role">Bachelor of Engineering in AI & Data Science (Hons. Blockchain Technology)</h3>
-              <p class="experience-company">University of Mumbai</p>
+            <div class="experience-title-group">
+              <div class="org-logo">
+                <span class="org-initial">M</span>
+                <img src="assets/logos/mumbai.png" alt="University of Mumbai logo" loading="lazy" onerror="this.remove()">
+              </div>
+              <div>
+                <h3 class="experience-role">Bachelor of Engineering – Artificial Intelligence and Data Science</h3>
+                <p class="experience-company">University of Mumbai</p>
+              </div>
             </div>
             <div class="experience-meta">
               <span>
@@ -919,14 +1020,15 @@
               </span>
               <span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"/><line x1="16" x2="16" y1="2" y2="6"/><line x1="8" x2="8" y1="2" y2="6"/><line x1="3" x2="21" y1="10" y2="10"/></svg>
-                Aug 2020 - May 2024
+                Jul 2020 - Jun 2024
               </span>
             </div>
           </div>
           <div class="experience-description">
             <ul>
+              <li>CGPA: 8.44/10</li>
               <li>Focus on Computer Science fundamentals, Data Structures, Algorithms, and Software Engineering</li>
-              <li>Developed strong foundation in programming and system design</li>
+              <li>Developed a strong foundation in programming and system design</li>
             </ul>
           </div>
           <div class="experience-tags">
@@ -955,13 +1057,14 @@
           </div>
           <div class="project-content">
             <h3 class="project-title">Multimodal RAG</h3>
-            <p class="project-description">A Multimodal Retrieval-Augmented Generation system for documents and images using Python, FastAPI, Pinecone, and JinaAI embeddings.</p>
+            <p class="project-description">A multimodal RAG pipeline that extracts text and figures from PDFs, using LLaMA-4 Scout to summarize figures, with a dual-index Pinecone design and intent-aware routing. Built with Jina CLIP v2 embeddings, a FastAPI backend, and S3-based ingestion.</p>
             <div class="project-tags">
               <span class="tag">Python</span>
               <span class="tag">FastAPI</span>
-              <span class="tag">LangChain</span>
               <span class="tag">Pinecone</span>
-              <span class="tag">JinaAI</span>
+              <span class="tag">Jina CLIP v2</span>
+              <span class="tag">LLaMA-4</span>
+              <span class="tag">S3</span>
             </div>
             <div class="project-links">
               <a href="https://github.com/ameymn/RAG" target="_blank" class="project-link">
@@ -985,11 +1088,12 @@
           </div>
           <div class="project-content">
             <h3 class="project-title">Manim MCP Server</h3>
-            <p class="project-description">MCP server enabling LLMs to generate 3Blue1Brown-style math animations via natural language. Streamlined 5-tool API reduces complex workflows from 30-50+ operations to 2-3 tool calls.</p>
+            <p class="project-description">A Model Context Protocol server that lets LLM clients generate 3Blue1Brown-style math animations from natural language. A 5-tool API cuts workflows from 30-50 granular operations down to 2-3 calls, with segment-based composition and a Pydantic-validated video rendering pipeline.</p>
             <div class="project-tags">
               <span class="tag">Python</span>
               <span class="tag">FastMCP</span>
               <span class="tag">Pydantic</span>
+              <span class="tag">Manim</span>
             </div>
             <div class="project-links">
               <a href="https://github.com/ameymn/manim_mcp_server" target="_blank" class="project-link">
@@ -1098,13 +1202,13 @@
           <div class="skill-icon">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"/><path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z"/><path d="M15 13a4.5 4.5 0 0 1-3-4 4.5 4.5 0 0 1-3 4"/><path d="M17.599 6.5a3 3 0 0 0 .399-1.375"/><path d="M6.003 5.125A3 3 0 0 0 6.401 6.5"/><path d="M3.477 10.896a4 4 0 0 1 .585-.396"/><path d="M19.938 10.5a4 4 0 0 1 .585.396"/><path d="M6 18a4 4 0 0 1-1.967-.516"/><path d="M19.967 17.484A4 4 0 0 1 18 18"/></svg>
           </div>
-          <h3 class="skill-title">Machine Learning & AI</h3>
+          <h3 class="skill-title">ML & AI Frameworks</h3>
           <div class="skill-items">
-            <span class="skill-item">Deep Learning</span>
-            <span class="skill-item">NLP</span>
-            <span class="skill-item">RAG</span>
-            <span class="skill-item">MCP</span>
-            <span class="skill-item">Computer Vision</span>
+            <span class="skill-item">PyTorch</span>
+            <span class="skill-item">TensorFlow</span>
+            <span class="skill-item">Scikit-learn</span>
+            <span class="skill-item">Pandas</span>
+            <span class="skill-item">NumPy</span>
           </div>
         </div>
 
@@ -1112,17 +1216,16 @@
           <div class="skill-icon">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
           </div>
-          <h3 class="skill-title">Frameworks & Libraries</h3>
+          <h3 class="skill-title">GenAI & LLMs</h3>
           <div class="skill-items">
-            <span class="skill-item">PyTorch</span>
-            <span class="skill-item">TensorFlow</span>
+            <span class="skill-item">RAG</span>
             <span class="skill-item">LangChain</span>
-            <span class="skill-item">Pandas</span>
-            <span class="skill-item">NumPy</span>
-            <span class="skill-item">Scikit-learn</span>
-            <span class="skill-item">NLTK</span>
-            <span class="skill-item">Hugging Face Transformers</span>
-
+            <span class="skill-item">Hugging Face</span>
+            <span class="skill-item">Prompt Engineering</span>
+            <span class="skill-item">MCP</span>
+            <span class="skill-item">OpenAI API</span>
+            <span class="skill-item">Anthropic API</span>
+            <span class="skill-item">Groq</span>
           </div>
         </div>
 
@@ -1134,11 +1237,9 @@
           <div class="skill-items">
             <span class="skill-item">FastAPI</span>
             <span class="skill-item">REST APIs</span>
-            <span class="skill-item">Vector Databases</span>
-            <span class="skill-item">LLM APIs(OpneAI, Claude, Vertex AI)
-
-            </span>
-
+            <span class="skill-item">Pydantic</span>
+            <span class="skill-item">Vector Databases (Pinecone)</span>
+            <span class="skill-item">Redis</span>
           </div>
         </div>
 
@@ -1148,12 +1249,12 @@
           </div>
           <h3 class="skill-title">MLOps & DevOps</h3>
           <div class="skill-items">
+            <span class="skill-item">MLflow</span>
             <span class="skill-item">Docker</span>
             <span class="skill-item">LangSmith</span>
             <span class="skill-item">CI/CD</span>
             <span class="skill-item">Git</span>
-            <span class="skill-item">GitHub</span>
-            <span class="skill-item">macOS</span>
+            <span class="skill-item">Linux</span>
           </div>
         </div>
 
@@ -1161,15 +1262,16 @@
           <div class="skill-icon">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/></svg>
           </div>
-          <h3 class="skill-title">Cloud (AWS)</h3>
+          <h3 class="skill-title">Cloud (AWS & Azure)</h3>
           <div class="skill-items">
             <span class="skill-item">S3</span>
             <span class="skill-item">EC2</span>
             <span class="skill-item">ECS</span>
             <span class="skill-item">Lambda</span>
-            <span class="skill-item">SageMaker</span>
             <span class="skill-item">Bedrock</span>
-
+            <span class="skill-item">Azure Container Apps</span>
+            <span class="skill-item">Azure Redis</span>
+            <span class="skill-item">Azure DevOps</span>
           </div>
         </div>
       </div>
@@ -1191,7 +1293,7 @@
           </div>
           <h3 class="contact-title">Let's Connect</h3>
           <p class="contact-text">
-            I'm currently looking for opportunities in AI, ML, and software development. Whether you have a question, want to collaborate, or just want to say hi, feel free to reach out!
+            I'm always open to conversations about AI, ML, and software development. Whether you have a question, want to collaborate, or just want to say hi, feel free to reach out!
           </p>
           <div class="contact-info">
             <div class="contact-item">
@@ -1209,7 +1311,7 @@
           </div>
           <div class="contact-buttons">
             <a href="mailto:ameymanagute.work@gmail.com" class="btn btn-primary">Send Email</a>
-            <a href="https://drive.google.com/file/d/12IivQXeszA7lrrzO2dg13satwldEHUZw/view?usp=sharing" target="_blank" class="btn btn-secondary">Download Resume</a>
+            <a href="Amey_Managute_Resume.pdf" target="_blank" class="btn btn-secondary">Download Resume</a>
           </div>
         </div>
       </div>
